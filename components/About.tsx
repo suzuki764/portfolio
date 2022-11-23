@@ -1,4 +1,4 @@
-import { Avatar, Divider, Tag } from "antd";
+import { Avatar, Card, Divider, Tag } from "antd";
 import styles from "./styles/About.module.css";
 
 export function About() {
@@ -54,6 +54,19 @@ export function About() {
           <Tag color="blue">Swift</Tag>
           <Tag color="blue">Kotlin</Tag>
         </div>
+
+        <h3 className={styles.title}>Study</h3>
+        <p>研究について</p>
+        <h4>テーマ</h4>
+        <p>『機械学習でのCT画像からのリンパ節検出をそのがん転移有無分類』</p>
+        <h4>概要</h4>
+        <p>
+          機械学習でCT画像からリンパ節へのがん転移有無を診断するためには、リンパ節の検出とそのがん転移有無分類という2つのタスクが必要である。
+          そのどちらか一方のみを行う先行研究は存在するが、それでは医療現場の実態に合わない。
+          そこで、単一のU-Netモデルを用いて2つのタスクを同時に行う手法を提案し、先行研究の手法を組み合わせるよりも、労力を減らしつつ、精度が向上することを確認した。
+        </p>
+
+        <h4>発表実績</h4>
       </div>
     </div>
   );
