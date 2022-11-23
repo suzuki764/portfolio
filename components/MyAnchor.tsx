@@ -10,14 +10,11 @@ export function MyAnchor() {
   };
 
   return (
-    <div style={{ position: "absolute", top: 0, margin: "1rem" }}>
-      <Anchor getCurrentAnchor={getCurrentAnchor} className={styles.anchor}>
-        <Link href="./" title="Top" />
-        <Link href="./aboutme" title="About me" />
-        <Link href="./products" title="Products">
-          <Link href="./apps" title="Apps" />
-          <Link href="./games" title="Games" />
-        </Link>
+    <div style={{ position: "absolute", top: 0, margin: "1rem", zIndex: 10 }}>
+      <Anchor className={styles.anchor}>
+        <Link href="#top" title="Top" />
+        <Link href="#aboutme" title="About me" />
+        <Link href="#products" title="Products" />
       </Anchor>
     </div>
   );

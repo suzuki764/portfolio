@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import { Canvas } from "@react-three/fiber";
 import { Stars } from "../components/Stars";
 import { MyAnchor } from "../components/MyAnchor";
+import { Scroll, ScrollControls } from "@react-three/drei";
 
 export default function Home() {
   return (
@@ -17,16 +17,20 @@ export default function Home() {
       <main className={styles.main}>
         <MyAnchor />
         <Canvas camera={{ position: [0, 0, 1] }}>
-          <Stars />
+          <ScrollControls pages={3}>
+            <Stars />
+            <Scroll html>
+              <div className={styles.center}>
+                <h1 className={styles.title} id="top">
+                  Kosuke Suzuki&#39;s <br />
+                  Portfolio Site
+                </h1>
+              </div>
+              <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
+            </Scroll>
+          </ScrollControls>
         </Canvas>
-        <div className={styles.title}>
-          <h1>
-            Kosuke Suzuki&#39;s <br />
-            Portfolio Site
-          </h1>
-        </div>
       </main>
-      <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
     </div>
   );
 }
