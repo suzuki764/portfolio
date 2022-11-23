@@ -13,7 +13,7 @@ export function MyAnchor() {
     <div style={{ position: "absolute", top: 0, margin: "1rem", zIndex: 10 }}>
       <Anchor className={styles.anchor}>
         <Link href="#top" title="Top" />
-        <Link href="#aboutme" title="About me" />
+        <Link href="#about" title="About" />
         <Link href="#products" title="Products" />
       </Anchor>
     </div>

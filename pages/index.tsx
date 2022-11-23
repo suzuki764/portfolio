@@ -1,9 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { Canvas } from "@react-three/fiber";
+import { Scroll, ScrollControls } from "@react-three/drei";
 import { Stars } from "../components/Stars";
 import { MyAnchor } from "../components/MyAnchor";
-import { Scroll, ScrollControls } from "@react-three/drei";
+import { About } from "../components/About";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
                   Portfolio Site
                 </h1>
               </div>
+              <About />
               <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
             </Scroll>
           </ScrollControls>
