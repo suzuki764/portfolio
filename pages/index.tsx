@@ -5,6 +5,7 @@ import { Scroll, ScrollControls } from "@react-three/drei";
 import { Stars } from "../components/Stars";
 import { MyAnchor } from "../components/MyAnchor";
 import { About } from "../components/About";
+import { Products } from "../components/Products";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <MyAnchor />
         <Canvas camera={{ position: [0, 0, 1] }}>
-          <ScrollControls pages={3}>
+          <ScrollControls pages={5}>
             <Stars />
             <Scroll html>
               <div className={styles.center}>
@@ -28,6 +29,7 @@ export default function Home() {
                 </h1>
               </div>
               <About />
+              <Products />
               <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
             </Scroll>
           </ScrollControls>

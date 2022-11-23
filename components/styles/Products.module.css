@@ -13,13 +13,10 @@
 
 h2.title {
   font-size: 7vh;
+  margin-bottom: 1rem;
 }
 
 h3.title {
   font-size: 5vh;
   margin-bottom: 1rem;
-}
-
-.tags span {
-  margin-bottom: 0.5rem;
 }
