@@ -20,14 +20,14 @@ export function About() {
       <div className={styles.tags}>
         <div style={{ marginBottom: "2rem" }}>
           <Divider plain>得意</Divider>
-          <Tag color="magenta">TypeScript</Tag>
-          <Tag color="magenta">React</Tag>
-          <Tag color="magenta">Unity</Tag>
-          <Tag color="magenta">C#</Tag>
+          <Tag color="blue">TypeScript</Tag>
+          <Tag color="gold">React</Tag>
+          <Tag color="gold">Unity</Tag>
+          <Tag color="blue">C#</Tag>
           <Tag color="magenta">Kubernetes</Tag>
           <Tag color="magenta">Docker</Tag>
-          <Tag color="magenta">Python</Tag>
-          <Tag color="magenta">TensorFlow</Tag>
+          <Tag color="blue">Python</Tag>
+          <Tag color="gold">TensorFlow</Tag>
           <Tag color="magenta">Azure</Tag>
           <Tag color="magenta">GCP</Tag>
           <Tag color="magenta">Git</Tag>
@@ -36,23 +36,23 @@ export function About() {
         </div>
         <div style={{ marginBottom: "2rem" }}>
           <Divider plain>そこそこ使える</Divider>
-          <Tag color="magenta">Java</Tag>
-          <Tag color="magenta">Flutter</Tag>
-          <Tag color="magenta">Dart</Tag>
-          <Tag color="magenta">C</Tag>
-          <Tag color="magenta">C++</Tag>
-          <Tag color="magenta">PHP</Tag>
+          <Tag color="blue">Java</Tag>
+          <Tag color="gold">Flutter</Tag>
+          <Tag color="blue">Dart</Tag>
+          <Tag color="blue">C</Tag>
+          <Tag color="blue">C++</Tag>
+          <Tag color="blue">PHP</Tag>
           <Tag color="magenta">AWS</Tag>
           <Tag color="magenta">Arduino</Tag>
           <Tag color="magenta">GraphQL</Tag>
         </div>
         <div style={{ marginBottom: "2rem" }}>
           <Divider plain>使ったことある</Divider>
-          <Tag color="magenta">Haskel</Tag>
-          <Tag color="magenta">Go</Tag>
-          <Tag color="magenta">Rust</Tag>
-          <Tag color="magenta">Swift</Tag>
-          <Tag color="magenta">Kotlin</Tag>
+          <Tag color="blue">Haskel</Tag>
+          <Tag color="blue">Go</Tag>
+          <Tag color="blue">Rust</Tag>
+          <Tag color="blue">Swift</Tag>
+          <Tag color="blue">Kotlin</Tag>
         </div>
       </div>
     </div>
