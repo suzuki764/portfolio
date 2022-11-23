@@ -6,6 +6,7 @@ import { Stars } from "../components/Stars";
 import { MyAnchor } from "../components/MyAnchor";
 import { About } from "../components/About";
 import { Products } from "../components/Products";
+import { Links } from "../components/Links";
 
 export default function Home() {
   return (
@@ -19,17 +20,18 @@ export default function Home() {
       <main className={styles.main}>
         <MyAnchor />
         <Canvas camera={{ position: [0, 0, 1] }}>
-          <ScrollControls pages={5}>
+          <ScrollControls pages={6}>
             <Stars />
             <Scroll html>
-              <div className={styles.center}>
-                <h1 className={styles.title} id="top">
+              <div className={styles.center} id="top">
+                <h1 className={styles.title}>
                   Kosuke Suzuki&#39;s <br />
                   Portfolio Site
                 </h1>
               </div>
               <About />
               <Products />
+              <Links />
               <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
             </Scroll>
           </ScrollControls>

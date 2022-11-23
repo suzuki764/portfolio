@@ -11,10 +11,11 @@ export function MyAnchor() {
 
   return (
     <div style={{ position: "absolute", top: 0, margin: "1rem", zIndex: 10 }}>
-      <Anchor className={styles.anchor}>
+      <Anchor>
         <Link href="#top" title="Top" />
         <Link href="#about" title="About" />
         <Link href="#products" title="Products" />
+        <Link href="#links" title="Links" />
       </Anchor>
     </div>
   );
