@@ -1,7 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Scroll, ScrollControls } from "@react-three/drei";
+import useMeasure from "react-use-measure";
 import { Stars } from "../components/Stars";
 import { MyAnchor } from "../components/MyAnchor";
 import { About } from "../components/About";
@@ -9,6 +11,19 @@ import { Products } from "../components/Products";
 import { Links } from "../components/Links";
 
 export default function Home() {
+  const [mainContainer, mainBounds] = useMeasure();
+  const [totalPages, setTotalPages] = useState(1);
+
+  useEffect(() => {
+    const vh = Math.max(
+      document.documentElement.clientHeight || 0,
+      window.innerHeight || 0
+    );
+
+    const pages = mainBounds.height / vh;
+    setTotalPages(pages);
+  }, [mainBounds]);
+
   return (
     <div>
       <Head>
@@ -20,19 +35,21 @@ export default function Home() {
       <main className={styles.main}>
         <MyAnchor />
         <Canvas camera={{ position: [0, 0, 1] }}>
-          <ScrollControls pages={6}>
+          <ScrollControls pages={totalPages}>
             <Stars />
             <Scroll html>
-              <div className={styles.center} id="top">
-                <h1 className={styles.title}>
-                  Kosuke Suzuki&#39;s <br />
-                  Portfolio Site
-                </h1>
+              <div ref={mainContainer}>
+                <div className={styles.center} id="top">
+                  <h1 className={styles.title}>
+                    Kosuke Suzuki&#39;s <br />
+                    Portfolio Site
+                  </h1>
+                </div>
+                <About />
+                <Products />
+                <Links />
+                <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
               </div>
-              <About />
-              <Products />
-              <Links />
-              <footer className={styles.footer}>© 2022 Kosuke Suzuki</footer>
             </Scroll>
           </ScrollControls>
         </Canvas>
