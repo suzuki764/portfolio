@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.fixed_top_left}>
+        <div className={`${styles.fixed_top_left} ${styles.translucent}`}>
           <Anchor>
             <Anchor.Link href="#top" title="Top" />
             <Anchor.Link href="#about" title="About" />
