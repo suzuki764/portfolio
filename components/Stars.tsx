@@ -7,7 +7,7 @@ import THREE from "three";
 export function Stars(props: any) {
   const ref = useRef<THREE.Points>(null!);
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.5 })
+    random.inSphere(new Float32Array(3000), { radius: 1.5 })
   );
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
