@@ -12,9 +12,9 @@ export function Links() {
         <Link href="https://github.com/suzuki764">
           <GithubOutlined style={{ fontSize: "5rem" }} />
         </Link>
-        <Link href="">
+        {/* <Link href="">
           <LinkedinFilled style={{ fontSize: "5rem" }} />
-        </Link>
+        </Link> */}
       </Space>
     </div>
   );

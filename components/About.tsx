@@ -8,8 +8,9 @@ export function About() {
       <h2 className={styles.title}>About</h2>
       <Avatar
         size={{ xs: 128, sm: 128, md: 256, lg: 256, xl: 256, xxl: 256 }}
-        src=""
+        src="./my-image.jpeg"
       />
+      <p style={{ fontStyle: "italic" }}>脳波の実験中</p>
       <p style={{ marginTop: "2rem" }}>
         はじめまして。名古屋工業大学大学院の鈴木康介です。
         <br />
@@ -43,6 +44,8 @@ export function About() {
           <Tag color="blue">C</Tag>
           <Tag color="blue">C++</Tag>
           <Tag color="blue">PHP</Tag>
+          <Tag color="gold">Angular</Tag>
+          <Tag color="gold">Ionic</Tag>
           <Tag color="magenta">AWS</Tag>
           <Tag color="magenta">Arduino</Tag>
           <Tag color="magenta">GraphQL</Tag>
