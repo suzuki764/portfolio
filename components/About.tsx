@@ -1,5 +1,6 @@
-import { Avatar, Card, Divider, Tag } from "antd";
+import { Avatar, Button, Divider, List, Tag } from "antd";
 import styles from "./styles/About.module.css";
+import { LinkOutlined } from "@ant-design/icons";
 
 export function About() {
   return (
@@ -68,8 +69,23 @@ export function About() {
           そこで、単一のU-Netモデルを用いて2つのタスクを同時に行う手法を提案し、先行研究の手法を組み合わせるよりも、労力を減らしつつ、精度が向上することを確認した。
         </p>
 
-        <h4>発表実績</h4>
-        <p>あとで書く</p>
+        <h4>実績など</h4>
+        <List bordered size="small">
+          <List.Item>
+            <a href="https://sites.google.com/view/miru2022">MIRU2022</a>{" "}
+            ポスター発表
+          </List.Item>
+          <List.Item>
+            国際学会 <a href="http://kes2022.kesinternational.org/">KES2022</a>{" "}
+            オンライン口述発表
+          </List.Item>
+          <List.Item>
+            Procedia Computer Science 掲載
+            <Button type="link" size="small" icon={<LinkOutlined />}>
+              Link
+            </Button>
+          </List.Item>
+        </List>
       </div>
     </div>
   );
