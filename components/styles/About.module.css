@@ -23,3 +23,7 @@ h3.title {
 .tags span {
   margin-bottom: 0.5rem;
 }
+
+.center a {
+  color: #0070f3;
+}
