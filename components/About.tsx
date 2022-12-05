@@ -49,11 +49,12 @@ export function About() {
           <Tag color="magenta">AWS</Tag>
           <Tag color="magenta">Arduino</Tag>
           <Tag color="magenta">GraphQL</Tag>
+          <Tag color="blue">Go</Tag>
+          <Tag color="magenta">GitHub Actions</Tag>
         </div>
         <div style={{ marginBottom: "2rem" }}>
           <Divider plain>使ったことある</Divider>
           <Tag color="blue">Haskel</Tag>
-          <Tag color="blue">Go</Tag>
           <Tag color="blue">Rust</Tag>
           <Tag color="blue">Swift</Tag>
           <Tag color="blue">Kotlin</Tag>
