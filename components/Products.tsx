@@ -27,7 +27,7 @@ export function Products() {
           </Card>
         </Col>
         <Col xs={24} md={12}>
-          <Card title="名工大からの脱出">
+          <Card title="名工大からの脱出" style={{ marginBottom: "1rem" }}>
             <p>
               学祭で展示するために部活動で作成したOculus Rift向けVRゲームです。
               <br />
@@ -45,7 +45,7 @@ export function Products() {
           </Card>
         </Col>
         <Col xs={24} md={12}>
-          <Card title="怪異からの脱出">
+          <Card title="怪異からの脱出" style={{ marginBottom: "1rem" }}>
             <p>
               部活動で作成したゲームです。1人用。
               あなたは目を覚ますと怪異の潜む夜の学校に閉じ込められていました。
@@ -61,7 +61,7 @@ export function Products() {
           </Card>
         </Col>
         <Col xs={24} md={12}>
-          <Card title="KASAnaru">
+          <Card title="KASAnaru" style={{ marginBottom: "1rem" }}>
             <p>
               ハッカソンで作成した、同じ大学の学生同士の相傘マッチングアプリです。
               <br />
@@ -84,7 +84,7 @@ export function Products() {
           </Card>
         </Col>
         <Col xs={24} md={12}>
-          <Card title="マイルド翻訳">
+          <Card title="マイルド翻訳" style={{ marginBottom: "1rem" }}>
             <p>
               ハッカソンで作成した、テキストを親しみやすく変換するアプリです。
               <br />
