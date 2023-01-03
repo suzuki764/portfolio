@@ -20,6 +20,11 @@ h3.title {
   margin-bottom: 1rem;
 }
 
+h4.title {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
 .tags span {
   margin-bottom: 0.5rem;
 }
