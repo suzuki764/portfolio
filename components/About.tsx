@@ -17,6 +17,9 @@ export function About() {
         このWebサイトには私の制作物などを載せていこうと思っています。
       </p>
 
+      <h4 className={styles.title}>Updates</h4>
+      <p>2023/1/3 ゲームのダウンロードリンクを追加</p>
+
       <h3 className={styles.title}>Skills</h3>
       <p>使える言語・フレームワーク・技術などの紹介</p>
       <div className={styles.tags}>
@@ -51,6 +54,8 @@ export function About() {
           <Tag color="magenta">GraphQL</Tag>
           <Tag color="blue">Go</Tag>
           <Tag color="magenta">GitHub Actions</Tag>
+          <Tag color="magenta">Firebase</Tag>
+          <Tag color="magenta">NoSQL</Tag>
         </div>
         <div style={{ marginBottom: "2rem" }}>
           <Divider plain>使ったことある</Divider>
