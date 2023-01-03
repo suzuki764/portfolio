@@ -38,7 +38,7 @@ export function Products() {
               Touchコントローラーを用いて直感的にアイテムを操作することができ、ゲームに慣れていない方にも好評でした。
               名工大を360°カメラで撮影した画像を使用しており、本当に名工大に閉じ込められてしまったかのような不思議な体験を味わうことができます。
             </p>
-            <Button type="link" icon={<DownloadOutlined />} disabled>
+            <Button type="link" icon={<DownloadOutlined />}>
               <a href="https://drive.google.com/file/d/1IB0qldy9tKXMeViqCgAQvyp-yB41CGbC/view?usp=share_link">
                 Download
               </a>
