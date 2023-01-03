@@ -6,19 +6,21 @@ export function Products() {
   return (
     <div className={styles.center} id="products">
       <h2 className={styles.title}>Products</h2>
-      <p>制作物の紹介（工事中）</p>
+      <p>制作物の紹介</p>
 
       <Row gutter={16}>
         <Col xs={24} sm={24} md={12}>
           <Card title="Eater" style={{ marginBottom: "1rem" }}>
             <p>
-              学祭で展示するために部活動で作成したゲームです。最大4人でプレイできます。
+              大学祭で展示するために部活動で作成したゲームです。最大4人でプレイできます。
               <br />
               ステージ上のポイントを集めるも良し、他のプレイヤーを倒してポイントを奪うも良し。
               アイテムをうまく使うのが勝利のカギです。
             </p>
             <Button type="link" icon={<DownloadOutlined />}>
-              Download
+              <a href="https://drive.google.com/file/d/1aHU5Cq1kJGdTNE7Tb61Qr0m8AfWbZrc5/view?usp=sharing">
+                Download
+              </a>
             </Button>
             <div>
               <Tag color="gold">Unity</Tag>
@@ -29,14 +31,17 @@ export function Products() {
         <Col xs={24} md={12}>
           <Card title="名工大からの脱出" style={{ marginBottom: "1rem" }}>
             <p>
-              学祭で展示するために部活動で作成したOculus Rift向けVRゲームです。
+              大学祭で展示するために部活動で作成したOculus
+              Rift向けVRゲームです。
               <br />
               名工大を舞台にしたVR脱出ゲームです。Oculus
               Touchコントローラーを用いて直感的にアイテムを操作することができ、ゲームに慣れていない方にも好評でした。
               名工大を360°カメラで撮影した画像を使用しており、本当に名工大に閉じ込められてしまったかのような不思議な体験を味わうことができます。
             </p>
-            <Button type="link" icon={<DownloadOutlined />}>
-              Download
+            <Button type="link" icon={<DownloadOutlined />} disabled>
+              <a href="https://drive.google.com/file/d/1IB0qldy9tKXMeViqCgAQvyp-yB41CGbC/view?usp=share_link">
+                Download
+              </a>
             </Button>
             <div>
               <Tag color="gold">Unity</Tag>
@@ -47,12 +52,14 @@ export function Products() {
         <Col xs={24} md={12}>
           <Card title="怪異からの脱出" style={{ marginBottom: "1rem" }}>
             <p>
-              部活動で作成したゲームです。1人用。
+              オンライン大学祭で展示するために部活動で作成したゲームです。1人用。
               あなたは目を覚ますと怪異の潜む夜の学校に閉じ込められていました。
               怪異から逃げながら、謎を解き明かして脱出しましょう。
             </p>
             <Button type="link" icon={<DownloadOutlined />}>
-              Download
+              <a href="https://drive.google.com/file/d/1s3zjZaEM_ftrEyBBgXvy0MD5Vu2bzefY/view?usp=sharing">
+                Download
+              </a>
             </Button>
             <div>
               <Tag color="gold">Unity</Tag>
