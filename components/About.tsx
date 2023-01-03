@@ -54,6 +54,8 @@ export function About() {
           <Tag color="magenta">GraphQL</Tag>
           <Tag color="blue">Go</Tag>
           <Tag color="magenta">GitHub Actions</Tag>
+          <Tag color="magenta">Firebase</Tag>
+          <Tag color="magenta">NoSQL</Tag>
         </div>
         <div style={{ marginBottom: "2rem" }}>
           <Divider plain>使ったことある</Divider>
