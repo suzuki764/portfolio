@@ -19,6 +19,7 @@ export function About() {
 
       <h4 className={styles.title}>Updates</h4>
       <p>2023/1/3 ゲームのダウンロードリンクを追加</p>
+      <p>2023/1/11 論文へのリンクを修正</p>
 
       <h3 className={styles.title}>Skills</h3>
       <p>使える言語・フレームワーク・技術などの紹介</p>
@@ -91,7 +92,9 @@ export function About() {
           <List.Item>
             Procedia Computer Science 掲載
             <Button type="link" size="small" icon={<LinkOutlined />}>
-              Link
+              <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009942?via%3Dihub">
+                Link
+              </a>
             </Button>
           </List.Item>
         </List>
