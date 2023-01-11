@@ -91,7 +91,9 @@ export function About() {
           <List.Item>
             Procedia Computer Science 掲載
             <Button type="link" size="small" icon={<LinkOutlined />}>
-              Link
+              <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009942?via%3Dihub">
+                Link
+              </a>
             </Button>
           </List.Item>
         </List>
