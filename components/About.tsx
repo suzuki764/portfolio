@@ -80,7 +80,7 @@ export function About() {
         </p>
 
         <h4>実績など</h4>
-        <List bordered size="small">
+        <List bordered size="small" className={styles.bg_white}>
           <List.Item>
             <a href="https://sites.google.com/view/miru2022">MIRU2022</a>{" "}
             ポスター発表
