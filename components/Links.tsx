@@ -1,7 +1,7 @@
 import { GithubOutlined, LinkedinFilled } from "@ant-design/icons";
 import styles from "./styles/Links.module.css";
 import Link from "next/link";
-import { Space } from "antd";
+import { Space, Image } from "antd";
 
 export function Links() {
   return (
@@ -15,6 +15,14 @@ export function Links() {
         {/* <Link href="">
           <LinkedinFilled style={{ fontSize: "5rem" }} />
         </Link> */}
+        <Link href="https://qiita.com/suzuki764">
+          <Image
+            src="./qiita-logo-background-color.png"
+            alt="qiita link"
+            width={150}
+            preview={false}
+          />
+        </Link>
       </Space>
     </div>
   );
