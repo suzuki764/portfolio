@@ -110,6 +110,30 @@ export function Products() {
             </div>
           </Card>
         </Col>
+        <Col xs={24} md={12}>
+          <Card title="みまもセル" style={{ marginBottom: "1rem" }}>
+            <p>
+              複数端末で連携することが特徴の子供見守りサービスです。ランドセル取り付け型のIoTデバイス、管理者用Webアプリ、保護者用スマートフォンアプリによって構成されています。
+              <br />
+              既存の見守りサービスのような個人での使用ではなく、学校・自治体単位で使用し、情報を共有することに焦点を当てています。
+              位置情報をもとに保護者向けアプリに帰宅通知や緊急通知を送る基本機能に加え、複数の端末からの情報を蓄積することができるので、通学路の検討などに活かすことができます。
+            </p>
+            <Button
+              type="link"
+              icon={<YoutubeFilled style={{ marginRight: 5 }} />}
+            >
+              <a href="https://youtu.be/kxLct4XnflM">プレゼン動画</a>
+            </Button>
+            <div className={styles.tags}>
+              <Tag color="blue">TypeScript</Tag>
+              <Tag color="gold">React</Tag>
+              <Tag color="gold">React Native</Tag>
+              <Tag color="blue">Python</Tag>
+              <Tag color="blue">C++</Tag>
+              <Tag color="magenta">Spresense</Tag>
+            </div>
+          </Card>
+        </Col>
       </Row>
       <div style={{ marginTop: "1rem" }}>and more</div>
     </div>

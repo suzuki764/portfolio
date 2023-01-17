@@ -21,3 +21,7 @@ h3.title {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
+
+.tags {
+  line-height: 1.8rem;
+}
