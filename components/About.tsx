@@ -18,8 +18,9 @@ export function About() {
       </p>
 
       <h4 className={styles.title}>Updates</h4>
-      <p>2023/1/3 ゲームのダウンロードリンクを追加</p>
+      <p>2023/1/17 みまもセルの紹介を追加</p>
       <p>2023/1/11 論文へのリンクを修正</p>
+      <p>2023/1/3 ゲームのダウンロードリンクを追加</p>
 
       <h3 className={styles.title}>Skills</h3>
       <p>使える言語・フレームワーク・技術などの紹介</p>
