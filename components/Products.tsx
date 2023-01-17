@@ -22,7 +22,7 @@ export function Products() {
                 Download
               </a>
             </Button>
-            <div>
+            <div className={styles.tags}>
               <Tag color="gold">Unity</Tag>
               <Tag color="blue">C#</Tag>
             </div>
@@ -43,7 +43,7 @@ export function Products() {
                 Download
               </a>
             </Button>
-            <div>
+            <div className={styles.tags}>
               <Tag color="gold">Unity</Tag>
               <Tag color="blue">C#</Tag>
             </div>
@@ -61,7 +61,7 @@ export function Products() {
                 Download
               </a>
             </Button>
-            <div>
+            <div className={styles.tags}>
               <Tag color="gold">Unity</Tag>
               <Tag color="blue">C#</Tag>
             </div>
@@ -82,7 +82,7 @@ export function Products() {
             >
               <a href="https://youtu.be/mh_Rr_Gm6BE?t=3940">プレゼン動画</a>
             </Button>
-            <div>
+            <div className={styles.tags}>
               <Tag color="blue">TypeScript</Tag>
               <Tag color="gold">Angular</Tag>
               <Tag color="gold">Ionic</Tag>
@@ -105,7 +105,7 @@ export function Products() {
             >
               <a href="https://youtu.be/7by-7JRb6yk?t=10518">プレゼン動画</a>
             </Button>
-            <div>
+            <div className={styles.tags}>
               <Tag color="blue">Python</Tag>
             </div>
           </Card>
