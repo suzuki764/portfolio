@@ -1,4 +1,5 @@
 import { Avatar, Button, Divider, List, Tag } from "antd";
+import Image from "next/image";
 import styles from "./styles/About.module.css";
 import { LinkOutlined } from "@ant-design/icons";
 
@@ -17,7 +18,8 @@ export function About() {
         このWebサイトには私の制作物などを載せていこうと思っています。
       </p>
 
-      <h4 className={styles.title}>Updates</h4>
+      <h4 className={styles.title}>Updates!</h4>
+      <p>2023/4/24 情報を更新</p>
       <p>2023/1/17 みまもセルの紹介を追加</p>
       <p>2023/1/11 論文へのリンクを修正</p>
       <p>2023/1/3 ゲームのダウンロードリンクを追加</p>
@@ -65,6 +67,17 @@ export function About() {
           <Tag color="blue">Rust</Tag>
           <Tag color="blue">Swift</Tag>
           <Tag color="blue">Kotlin</Tag>
+        </div>
+        <div style={{ marginBottom: "2rem" }}>
+          <Divider plain>その他</Divider>
+          <Tag color="magenta">応用情報技術者試験 合格</Tag>
+          <br />
+          <Image
+            src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/71789614?key=db8675bf2291c8a6b8e12021b72f64ef99f3f0311aa6aab72d9ecadbc76342cc"
+            alt="Google Cloud Certified Associate Cloud Engineer"
+            width="150"
+            height="150"
+          />
         </div>
 
         <h3 className={styles.title}>Study</h3>
