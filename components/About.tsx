@@ -98,6 +98,16 @@ export function About() {
               </a>
             </Button>
           </List.Item>
+          <List.Item>
+            <a href="http://soft-cr.org/tokai/tokai.html">東海ファジィ研究会</a>{" "}
+            ポスター発表
+          </List.Item>
+          <List.Item>
+            <a href="https://www.ieice-taikai.jp/2023general/jpn/">
+              電気情報通信学会
+            </a>{" "}
+            口述発表
+          </List.Item>
         </List>
       </div>
     </div>
