@@ -19,6 +19,7 @@ export function About() {
       </p>
 
       <h4 className={styles.title}>Updates!</h4>
+      <p>2024/1/15 久しぶりの更新です</p>
       <p>2023/4/24 情報を更新</p>
       <p>2023/1/17 みまもセルの紹介を追加</p>
       <p>2023/1/11 論文へのリンクを修正</p>
@@ -72,6 +73,8 @@ export function About() {
           <Divider plain>その他</Divider>
           <Tag color="magenta">応用情報技術者試験 合格</Tag>
           <br />
+          <Tag color="magenta">データベーススペシャリスト試験 合格</Tag>
+          <br />
           <Image
             src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/71789614?key=db8675bf2291c8a6b8e12021b72f64ef99f3f0311aa6aab72d9ecadbc76342cc"
             alt="Google Cloud Certified Associate Cloud Engineer"
@@ -120,6 +123,18 @@ export function About() {
               電気情報通信学会
             </a>{" "}
             口述発表
+          </List.Item>
+          <List.Item>
+            <a href="https://www.tokai-rengo.jp/">
+              電気・電子・情報関係学会 東海支部連合大会
+            </a>{" "}
+            口述発表
+          </List.Item>
+          <List.Item>
+            <a href="https://sites.google.com/view/winf2023/home">
+              情報学ワークショップ
+            </a>{" "}
+            ポスター発表（奨励賞受賞）
           </List.Item>
         </List>
       </div>
