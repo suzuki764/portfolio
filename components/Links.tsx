@@ -12,17 +12,6 @@ export function Links() {
         <Link href="https://github.com/suzuki764">
           <GithubOutlined style={{ fontSize: "5rem" }} />
         </Link>
-        {/* <Link href="">
-          <LinkedinFilled style={{ fontSize: "5rem" }} />
-        </Link> */}
-        <Link href="https://qiita.com/suzuki764">
-          <Image
-            src="./qiita-logo-background-color.png"
-            alt="qiita link"
-            width={150}
-            preview={false}
-          />
-        </Link>
       </Space>
     </div>
   );
